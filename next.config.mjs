@@ -13,6 +13,10 @@ const nextConfig = {
     compiler: "modern",
     silenceDeprecations: ["legacy-js-api"],
   },
+  reactStrictMode: true,
+  experimental: {
+    appDir: true,
+  },
 };
 
 export default withMDX(nextConfig);
